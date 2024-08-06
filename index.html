@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="menu-btn.png" alt="Menu Button" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore the Beautiful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Forthcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png" alt="Everest Camp Trek">
+                <h4>Everest Camp Trek</h4>
+             <p>Dare to dream big and step into a world of majestic peaks and timeless beauty. Join us on an unforgettable journey to Everest Base Camp, where every step brings you closer to the top of the world.
+
+             </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img2.png" alt="Walking Holidays">
+                <h4>Walking Holidays</h4>
+                <p>Escape the hustle and bustle of everyday life and immerse yourself in the tranquility of nature with our exclusive walking holidays. Step into a world where every path leads to new discoveries, breathtaking vistas, and unforgettable memories</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>Embark on the journey of a lifetime, where every horizon holds a new story, and every step uncovers the beauty of the world. Embrace the adventure, discover the unknown, and let the world be your guide.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours And Events</h1>
+                <div class="line"></div>
+                <p>Get ready to embark on extraordinary journeys and experience unforgettable moments with our upcoming tours and events. Whether you're a seasoned traveler or looking for your next great escape, we have something special in store for you.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img3.png" alt="Tour Image 1">
+                    <img src="img4.png" alt="Tour Image 2">
+                    <img src="img5.png" alt="Tour Image 3">
+                    <img src="img6.png" alt="Tour Image 4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 fifth avenue,NV 10160,New York,USA\ phone: 800-123-456</p>
+        <p>Copyright @ 2020 outdoor Adventure</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+</body>
+</html>
